@@ -1,6 +1,6 @@
 cask "clawdboard" do
   version "0.1.0"
-  sha256 "b037c5768ec2cdb994e7b0b0a2c4ef1114d41813d7785b1e1949239d3f8fdb1c"
+  sha256 "b10c8b0bde7983a792c568985ae1eb347ac734339459e2c4581cd5beed93bbcf"
 
   url "https://github.com/apocohq/clawdboard/releases/download/v0.1.0/Clawdboard-v0.1.0.zip"
   name "Clawdboard"
@@ -10,6 +10,10 @@ cask "clawdboard" do
   depends_on macos: ">= :sonoma"
 
   app "Clawdboard.app"
+
+  postflight do
+    system_command "/usr/bin/xattr", args: ["-cr", "#{appdir}/Clawdboard.app"]
+  end
 
   zap trash: "~/.clawdboard"
 end
