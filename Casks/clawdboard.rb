@@ -1,6 +1,6 @@
 cask "clawdboard" do
   version "0.1.0"
-  sha256 "fe360a105b1365a368427d1724a204de99e3fdec3f9125c6c9fbd7701624a79f"
+  sha256 "6249164a0734d01ca4489502afeadee5668f83041a37a3e7e0c75f1e2daa77c6"
 
   url "https://github.com/apocohq/clawdboard/releases/download/v0.1.0/Clawdboard-v0.1.0.zip"
   name "Clawdboard"
