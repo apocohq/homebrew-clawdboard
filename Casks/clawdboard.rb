@@ -1,8 +1,8 @@
 cask "clawdboard" do
-  version "0.1.0"
-  sha256 "6249164a0734d01ca4489502afeadee5668f83041a37a3e7e0c75f1e2daa77c6"
+  version "0.1.1"
+  sha256 "61a76ecd34f701ed416cc13f0b8ee8f39811aed5d506fdf1600e38d58b2331b1"
 
-  url "https://github.com/apocohq/clawdboard/releases/download/v0.1.0/Clawdboard-v0.1.0.zip"
+  url "https://github.com/apocohq/clawdboard/releases/download/v0.1.1/Clawdboard-v0.1.1.zip"
   name "Clawdboard"
   desc "macOS menu bar app for monitoring Claude Code agent sessions"
   homepage "https://github.com/apocohq/clawdboard"
